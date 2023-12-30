@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.clonos_textarea_container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+}
+
+.clonos_textarea_container label {
+    color: #000;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.clonos_textarea {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    padding: 0.9375rem 0.875rem;
+    align-items: center;
+    gap: 0.625rem;
+
+    border-radius: 0.375rem;
+    border: 1px solid #8CA1C4;
+    background: #FFF;
+}
+
+.clonos_textarea textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    min-width: 100%;
+}
+
+.clonos_textarea textarea:focus {
+    border: none;
+    outline: none;
+}
+
+.clonos_textarea_isMandatory {
+    color: red;
+    font-size: .8rem;
+    margin-top: 10px !important;
+}
+
+.clonos_textarea_error {
+    color: red;
+    font-size: .8rem;
+}

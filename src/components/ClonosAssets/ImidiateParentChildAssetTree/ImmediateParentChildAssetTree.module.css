@@ -1,0 +1,36 @@
+.astParentAndChild{
+    position: relative;
+}
+.dotConnector {
+    height: 50px;
+    width: 2px;
+    background: #D24B5A;
+    position: absolute;
+    top: 27px;
+    left: 9px;
+
+}
+.astDot{
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: #000;
+}
+.astParent ,.astChild {
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+    margin-bottom: 30px;
+}
+.astChild {
+    margin-bottom: 0px
+}
+
+.astChild > .astDot{
+    background: gray;
+}
+.astParent > h4,.astChild > h4{
+    font-size: 1em;
+    color: #000;
+    font-weight: 400;
+}

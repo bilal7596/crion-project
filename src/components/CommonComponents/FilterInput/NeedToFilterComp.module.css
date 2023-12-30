@@ -1,0 +1,17 @@
+.ntfc_container{
+    display: flex;
+    width: fit-content;
+    height: 2.5rem;
+    padding: 0.5rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    border: 1px solid var(--foundation-crion-crion-100, #B2C0D7);
+    background: #FFF;
+}
+.ntfc_container input {
+    height: 100%;
+    outline: none;
+    border: none;
+}

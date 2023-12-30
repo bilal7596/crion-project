@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.error {
+    color: red;
+}
+.checklist_main_container {
+    border: 0.5px solid var(--foundation-black-black-50, #E6E6E6);
+    position: relative;
+    background-color: #E6EBF2;
+    padding: 1rem;
+}
+
+.checklist_content_container  {
+    background: #FAFAFA;
+    border-radius: 16px;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 80px;
+}
+.required{
+    color: red;
+}
+
+/* CREATE CHECKLIST GENERAL DETAILS COMPONENT */
+.checklist_gen_details_header{
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+.fieldsContainer{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 32px;
+}
+.fieldItemBox{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 12px;
+}
+.checklist_general_details_label,.durrationText {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.checklist_general_details_fieldValueTaker > input,.checklist_general_details_fieldValueTaker > textarea{
+    border-radius: 6px;
+    border: 1px solid #8CA1C4;
+    background: #FFF;
+    padding: 1rem;
+    width: 100%;
+}
+.checklist_general_details_fieldValueTaker > input::placeholder,.checklist_general_details_fieldValueTaker > textarea::placeholder{
+    color: #8CA1C4;
+}
+.checklist_gen_details_horizontalFlexBox{
+    display: flex;
+    justify-content: space-between ;
+}
+.checklist_gen_details_horizontalFlexBox > div {
+    width: 45%;
+}
+
+.custom_input_container {
+    border: 1px solid #8CA1C4;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 0.8rem;
+}
+.custom_input_container > input {
+    border: none;
+    background: #FAFAFA;
+    color: #000;
+}
+.custom_input_container > input:focus {
+    outline: none;
+}
+.count_selector {
+    display: flex;
+    flex-direction: column;
+}
+.durrationContainer{
+    display: flex;
+    align-items: center;
+    grid-gap: 1rem;
+}
+.checklist_gen_details_footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.checklist_gen_details_footer > div {
+    display: flex;
+    grid-gap: 1em;
+}
+
+

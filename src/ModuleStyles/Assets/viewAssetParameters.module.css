@@ -1,0 +1,68 @@
+.v_a_parameters_container {
+    width: 100%;
+    padding: 3.5rem;
+}
+
+.v_a_parameters_sub_container {
+    width: 70%;
+    margin: auto;
+}
+.status_tracker{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.enabled_status {
+    background-color: #06337E;
+
+    &:checked {
+        background-color: #06337E;
+    }
+}
+
+
+/* TRACKER MODAL */
+.modal_sub_container {
+    width: 520px;
+    height: 272px;
+    border-radius: 12px;
+    background: #FFF;
+    overflow: hidden;
+}
+.modal_header {
+    background-color: #E6EBF2;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+
+}
+.modal_header_content {
+    width: 60%;
+    display: flex;
+    padding-right:1rem ;
+    justify-content: space-between;
+}
+.modal_header_content_left > h4 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.modal_header_content_left {
+    display: flex;
+    grid-gap: 10px;
+    align-items: center;
+}
+.modal_content {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 3rem;
+    padding: 3rem;
+}
+.btn_controller {
+    display: flex;
+    justify-content: center;
+    grid-gap: 1rem;
+}

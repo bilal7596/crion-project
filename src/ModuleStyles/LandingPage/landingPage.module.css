@@ -1,0 +1,105 @@
+.cardsContainer{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap:50px;
+    padding: 40px;
+}
+.cardContainer{
+    width:"100%";
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    border-radius: 12px;
+    overflow: hidden;
+    /* position: relative; */
+}
+
+.imageContainer{
+    width:"100%";
+    min-height: 200px;
+    background-color: #E8EAF6;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    cursor: pointer;
+}
+.imageContainer > img{
+    max-width: 150px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+    padding: 2em;
+    position: relative;
+}
+.content > div{
+    text-align: center;
+}
+.content > div > h4{
+    font-size: 24px;
+    color: black;
+}
+.content > div > p{
+    font-size: 18px;
+    color: black;
+    height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    /* bottom: 20px;
+    left: 0;
+    right: 0; */
+}
+.btn > button{
+    background-color: #3f51b5;
+    color: #FFF;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    /* white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+}
+
+/* FOR WINDOW VIEW */
+@media (min-width: 1200px) and (max-width:1440px) {
+    .cardsContainer {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 50px;
+      padding: 40px;
+    }
+  }
+
+  /* FOR TABLET VIEW */
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .cardsContainer {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 40px;
+      padding: 30px;
+    }
+    .btn > button {
+      font-size: 14px;
+    }
+    .titleContainer{
+      min-height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }  
+
+  /* FOR MOBILE VIEW */
+  @media (max-width: 767px) {
+    .cardsContainer {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+  } 

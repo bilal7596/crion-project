@@ -1,0 +1,13 @@
+.rs-picker-daterange-menu{
+    z-index: 10000;
+    /* left: 1420px !important;
+    top: 125px !important; */
+  }
+  .MuiDrawer-paper{
+    overflow-x: hidden;
+  }
+  .dateRangeBox > .rs-picker-daterange{
+    margin: 15px 0 0 5px !important;
+  }
+
+  

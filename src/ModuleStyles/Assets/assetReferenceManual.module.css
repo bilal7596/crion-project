@@ -1,0 +1,190 @@
+.required{
+    color: red;
+}
+.ast_rfml_contanier{
+    padding:20px 80px;
+}
+.ast_rfml_header_title{
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.ast_rfml_documents {
+    display: flex;
+    justify-content: flex-end;
+}
+.ast_rfml_documents > div {
+    border-radius: 6px;
+    background: none;
+    padding: 0.6rem;
+    display: flex;
+    grid-gap: 6px;
+    align-items: center;
+    color: #0A5FFF;
+    cursor: pointer;
+}
+.ast_rfml_doclist_container{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+    height: 55vh;
+    padding: 1rem;
+    overflow-y: scroll;
+
+}
+.ast_rfml_singledoc {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+    border-bottom: 8px solid #3D5AF1;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.ast_rfml_doc_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.ast_rfml_doc_header_left{
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+}
+.ast_rfml_instruction_list{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 2rem;
+    margin-bottom: 40px;
+
+}
+.ast_rfml_single_instruction{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ast_rfml_instruction_text_taker {
+    width: 70%;
+}
+.ast_rfml_instruction_text_taker > input {
+    border-radius: 6px;
+    border: 1px solid #8CA1C4;
+    background: #FFF;
+    width: 100%;
+    padding: 0.8rem 1rem;
+}
+.ast_rfml_instruction_text_taker > input:focus {
+   outline: none;
+}
+.ast_rfml_instructionfile_taker_container {
+    width:20%
+}
+.ast_rfml_instructionfile_taker {
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+    cursor: pointer;
+}
+.ast_rfml_instructionfile_taker > input {
+    display: none;
+}
+.ast_rfml_instructionfile_remover {
+    width:5%;
+    cursor: pointer;
+}
+.ast_rfml_file_preview {
+    display: flex;
+    width: 20%;
+    align-self: center;
+    grid-gap: 10px;
+    /* justify-content: space-between ; */
+}
+.ast_rfml_filename_preview{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 60%;
+    font-size: 16px;
+}
+.ast_rfml_instruction_controller{
+    display: flex;
+}
+.ast_rfml_instruction_controller_btn{
+    border-radius: 6px;
+    background: none;
+    padding: 0.6rem;
+    display: flex;
+    grid-gap: 6px;
+    align-items: center;
+    color: #0A5FFF;
+    border: 1px solid #0A5FFF;
+    cursor: pointer;
+}
+.ast_rfml_instruction_remover {
+    cursor: pointer;
+}
+
+
+/* DOCUMENT NAME TAKER MODAL */
+.ast_rfmlmodal_sub_container {
+    width: 50vw;
+    /* height: 260px; */
+    border-radius: 12px;
+    background: #FFF;
+    overflow: hidden;
+}
+.ast_rfmlmodal_sub_container > h4 {
+    background: #E7EFFF;
+    color: #06337E;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 1.5rem 2rem;
+}
+.ast_rfmlmodal_sub_container > div {
+    padding: 2rem;
+    
+}
+
+.ast_rfmlmodal_input_controller  {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
+}
+.ast_rfmlmodal_input_controller > label {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.ast_rfmlmodal_input_controller input {
+    color: #000;
+    width: 100%;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0.9rem;
+    border: 1px solid #8CA1C4;
+    border-radius: 6px;
+}
+.ast_rfmlmodal_input_controller input::placeholder{
+    color: #8CA1C4;
+}
+.ast_rfmlmodal_btn_controller {
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,19 @@
+.permissionBox {
+    display: flex;
+     align-items:center;
+      justify-content:space-between;
+       box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding:10px;
+         margin-bottom:1em
+}
+.permissionBox > p {
+    font-size: 18px;
+}
+.permissionBox > div{
+    display:flex;
+    align-items:center;
+    grid-gap:2em
+}
+.permissionBox > div > div{
+    cursor: pointer;
+}

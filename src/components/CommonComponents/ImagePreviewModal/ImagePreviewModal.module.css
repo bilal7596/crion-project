@@ -1,0 +1,75 @@
+.container {
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+    background: #FAFAFA;
+    border-radius: 16px;
+}
+.header{
+    display: flex;
+    height: 10%;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: #FFF;
+    padding: 30px 40px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.08), 0px 0px 4px 0px rgba(0, 0, 0, 0.04);
+}
+.fileNameText{
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.headerRightContent {
+    display: flex;
+    grid-gap: 3em;
+    align-items: center;
+}
+.deleteContainer{
+    display: flex;
+    grid-gap: 1em;
+    align-items: center;
+}
+.deleteContainer > h4 {
+    color: #D24B5A;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.slidderContainer{
+    display: flex;
+    grid-gap: 1em;
+    align-items: center;
+    height: 90%;
+    padding: 1em 2em;
+    justify-content: space-between;
+}
+.imageContainer{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+
+}
+.imageContainer > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 18px;
+    overflow: hidden;
+}
+.CIRCLELEFT{
+    width: 10%; 
+    cursor: pointer;
+}
+.CIRCLERIGHT{
+    width: 10%;
+    cursor: pointer;
+    text-align: end;
+}
+.closeIcon{
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.off_button{
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #79747E;
+    background: #E6E0E9;
+    border-radius: 100px;
+
+}
+.off_button_content{
+    background: #79747E;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.on_button{
+    display: flex;
+    justify-content: flex-end;
+    width: 50px;
+    padding: 3px;
+    border: 1px solid #06337E;
+    background: #06337E;
+    border-radius: 100px;
+}
+.on_button_content{
+    background: #FFF;
+    width: 24.5px;
+    height: 24.5px;
+    border-radius: 50%;
+}

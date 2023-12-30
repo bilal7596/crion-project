@@ -1,0 +1,17 @@
+.single_canvas_rendered_document_container {
+    position: relative;
+    background-color: #3f51b52c;
+    /* border-radius: 10px; */
+    border: 10px solid  #DADDEE;
+    display: flex;
+}
+footer{
+    width: 100%;
+    margin-top:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.single_canvas_rendered_document_page_number{
+
+}

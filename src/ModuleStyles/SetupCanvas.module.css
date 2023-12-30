@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .setup_canvas_main_container {} */
+
+.setup_canvas_body_container {
+    display: flex;
+    align-items: center;
+}
+
+.setup_canvas_body_container {
+    margin-top: 20px;
+    position: relative;
+}
+.setup_canvas_heading_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.setup_canvas_heading_container>h3 {
+    color: #3F51B5;
+}
+
+.setup_canvas_controller_container {
+    height: 80vh;
+    width: 20%;
+    position: relative;
+}
+
+.setup_canvas_controller_container>div {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0px 10px 10px 0px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.setup_canvas_drop_down_attributes_container {
+    border-radius: 5px;
+    /* padding: 10px; */
+}
+
+.setup_canvas_std_select_tag {
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    background-color: rgb(250, 250, 250);
+    font-size: 17px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.setup_canvas_std_select_tag:focus {
+    border: none;
+    outline: none;
+}
+
+
+
+.setup_canvas_drop_down_attributes_options{
+    background-color: #3f51b51a;
+    text-transform: capitalize;
+}
+
+.setup_canvas_render {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.setup_canvas_line {
+    height: 80vh;
+    border: 1px solid gray;
+}
+.setup_canvas_std_button{
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; 
+    background-color: #3F51B5;
+    color: white;
+    transition: all 0.2s ease-in-out;
+    /* background-color: #4f69ffce; */
+
+}
+.setup_canvas_std_button:active{
+    border: none;
+    outline: none;
+    transform: scale(0.9);
+}
+.setup_canvas_container {
+    width: 80%;
+    height: 80vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 10px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.setup_canvas_child {
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    background-color: #3f51b51a;
+    border-radius: 10px;
+}
+.setup_canvas_draw_control{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+/* .canvas_container {} */

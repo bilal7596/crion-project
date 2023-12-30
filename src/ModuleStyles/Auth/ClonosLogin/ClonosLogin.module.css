@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.main_container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.main_container>section {
+    width: 50%;
+    height: 100%;
+}
+
+.carousel_container {
+    width: 100%;
+    position: relative;
+    background-color: var(--clonos-global-blue);
+    padding: 2.5rem 4.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo_and_heading_container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.44rem;
+}
+
+.logo_and_heading_element {
+    display: flex;
+    align-items: baseline;
+    width: fit-content;
+}
+
+.logo_and_heading_element h3 {
+    color: var(--foundation-black-b-0, var(--White, #FFF));
+    font-family: Lato;
+    font-size: 2.5345rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.logo_and_heading_container>span {
+    margin-left: 2.5345rem;
+    display: block;
+    width: fit-content;
+    color: var(--foundation-black-b-0, var(--White, #FFF));
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 170%;
+    /* 2.125rem */
+}
+
+.carousel_image_indicator_container {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.carousel_image_indicator_container_element {
+    display: block;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+/* Carousel Image Body  */
+.carousel_image_body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.carousel_image_container {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 400px;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.carousel_image_heading_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.4375rem;
+}
+
+
+.carousel_image_heading {
+    width: fit-content;
+    color: var(--foundation-black-b-0, var(--White, #FFF));
+    text-align: center;
+    font-family: Roboto;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 131.5%;
+    width: 26.875rem;
+    /* 2.63rem */
+}
+
+.carousel_image_paragraph {
+    color: var(--foundation-black-b-0, var(--White, #FFF));
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 2.125rem */
+    width: 24.125rem;
+}
+
+
+/* Login Fields  */
+.login_fields_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clonos-global-white);
+}
+
+.login_fields_wrapper {
+    width: 50%;
+}
+
+.login_fields_header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 3.75rem;
+}
+
+.login_fields_header h3 {
+    color: var(--foundation-black-b-900, #000);
+    font-family: Roboto;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.login_fields_header p {
+    color: var(--foundation-black-b-900, #000);
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 1.7rem */
+}
+
+.login_fields_body>p {
+    color: var(--tertiary-blue-100, #0A5FFF);
+    font-family: Roboto;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    margin-bottom: 3.75rem;
+    cursor: pointer;
+    /* 1.4875rem */
+}
+
+.login_fields_body>div:nth-child(1) {
+    margin-bottom: 3.75rem;
+}
+
+.login_fields_body>div:nth-child(2) {
+    margin-bottom: 1rem;
+}

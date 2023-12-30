@@ -1,0 +1,59 @@
+.custom-select-picker .rs-picker-toggle:hover,
+.custom-select-picker .rs-picker-toggle:active {
+
+
+
+    background-color: transparent !important;
+    color: inherit !important;
+    background-color: white !important;
+    border: none !important;
+}
+
+.custom-select-picker .rs-picker-toggle {
+    border: none !important;
+    border-radius: 0 !important;
+    outline: none !important;
+}
+
+.custom-select-picker .rs-select-toggle,
+.custom-select-picker .rs-select-toggle:hover,
+.custom-select-picker .rs-select-toggle:focus,
+.custom-select-picker .rs-select-toggle.rs-select-toggle-active,
+.custom-select-picker .rs-select-dropdown {
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    outline: none !important;
+    background-color: none !important;
+}
+
+.rs-picker-toggle,
+.rs-picker-toggle-active,
+.rs-btn,
+.rs-btn-default {
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    outline: none !important;
+    background-color: none !important;
+}
+.custom-select-picker .rs-stack-item > svg{
+    display: none !important;
+}
+.custom-select-picker .rs-stack-item > input {
+    background-color: yellow !important;
+    width: 30px !important;
+}
+rs-picker-toggle .rs-btn .rs-btn-default{
+    width: fit-content !important;
+}
+
+
+.rs-picker-toggle .rs-btn .rs-btn-default{
+    padding: none !important;
+}
+
+
+/* .makeStyles-content-11 {
+  padding: 0 !important;
+}   */

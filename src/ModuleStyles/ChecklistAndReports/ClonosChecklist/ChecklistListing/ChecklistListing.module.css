@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.checklist_listing_nav {
+    display: flex;
+    width: 100%;
+    height: 4.375rem;
+}
+
+.checklist_listing_content_container {
+    background-color: var(--clonos-global-light-graw);
+    padding: 1rem;
+}
+
+.checklist_listing_content_body {
+    background-color: var(--clonos-global-white);
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    overflow-y: auto;
+}
+
+.checklist_listing_child_wrapper {
+    padding: 0rem 1rem 0rem 1rem;
+}

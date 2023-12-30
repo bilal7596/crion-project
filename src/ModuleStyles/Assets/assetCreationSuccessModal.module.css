@@ -1,0 +1,67 @@
+.container{
+    width: 520px;
+    border-radius: 12px;
+    background-color: #FFF;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 138px;
+    background: #E6EBF2;
+    border-radius: 12px;
+}
+.headerContent {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1em;
+}
+.headerContent > h5 {
+    color: #06337E;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.headerContent > p {
+    color: #06337E;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.successGiftContainer{
+    /* height: 100px; */
+    text-align: center;
+}
+.successGiftContainer img {
+    width: 120px;
+    height: 120px;
+}
+.textContentBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btnController{
+    display: flex;
+    grid-gap: 2em;
+    align-items: center;
+    padding: 3em 1em;
+}
+.textContentBox > p{
+    color: var(--foundation-black-black-500, #000);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;    
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+}

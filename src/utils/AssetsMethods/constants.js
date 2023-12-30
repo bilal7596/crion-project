@@ -1,0 +1,18 @@
+export const optionalParamsForSingleAsset = {
+  assetMode: 1,
+  runningMode: 1,
+  assetImages: 1,
+  // assetType : 1,
+  assetDepartment: 1,
+  assetCategory: 1,
+  criticalityLevel: 1,
+  functionalArea: 1,
+  location: 1,
+  geoLocation: 1,
+  assetOwner: 1,
+  assetLayoutImage: 1,
+  asset3DModel: 1,
+  assetTermsAndConditions: 1,
+  hazardousAreaDetails: 1,
+  assetParameters: 1,
+};

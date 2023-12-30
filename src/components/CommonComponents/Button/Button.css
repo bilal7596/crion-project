@@ -1,0 +1,23 @@
+.outlined_btn {
+    border: 1px solid #06337E;
+    background-color: #FFF;
+    border-radius: 6px;
+}
+
+.filled_btn {
+    background-color: #06337E;
+    color: #FFF;
+    border-radius: 6px;
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+}
+
+#clonos_common_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

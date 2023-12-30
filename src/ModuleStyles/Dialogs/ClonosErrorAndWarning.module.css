@@ -1,0 +1,18 @@
+.heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    padding: 20px 0px;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navigation > a:hover{
+    text-decoration: none !important;
+    color: rgb(165, 165, 165);
+
+}

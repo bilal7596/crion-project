@@ -1,0 +1,122 @@
+.view_s_m_main_container{
+    background-color:#E6EBF2;
+    padding: 1rem;
+}
+.view_s_m_sub_container{
+    background-color: #FAFAFA;
+    border-radius: 12px;
+    height: 100%;
+    overflow-y: scroll;
+    padding:50px 85px ;
+}
+.view_s_m_details_container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    border-radius: 12px;
+    padding: 28px 35px;
+    background: var(--foundation-black-b-0, #FFF);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.08), 0px 0px 4px 0px rgba(0, 0, 0, 0.04);
+}
+.view_s_m_details_left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+}
+.view_s_m_details_right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+}
+.view_s_field_wrapper{
+    display: flex;
+    grid-gap: 1rem;
+}
+.view_s_field_name_wrapper{
+    width: 30%;
+    color: var(--foundation-black-b-900, #000);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.view_s_field_value_wrapper{
+    width: 60%;
+    color: var(--foundation-black-b-900, #000);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    /* white-space: wrap; */
+}
+.tasks_wrapper{
+    padding: 54px 0px;
+}
+.view_s_m_tasks_container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1.5rem;
+}
+.view_s_m_task_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 6px;
+}
+.view_s_m_task_row_left{
+    width: 60%;
+    display: flex;
+    grid-gap: 1rem;
+    align-items: center;
+}
+.view_s_m_task_row_left > p {
+    width: 80%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    overflow: hidden;
+}
+
+.s_m_status_wrapper{
+    display: flex;
+    grid-gap: 10px;
+}
+.view_s_field_value_team_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 1rem;
+    /* justify-content: space-between; */
+}
+
+.view_s_field_value_team_wrapper > span {
+    /* width: 100%; */
+    /* text-overflow: ellipsis; */
+    /* white-space: nowrap; */
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    overflow: hidden;
+    background-color: #FAFAFA;
+    padding: 3px;
+    border-radius: 3px;
+}

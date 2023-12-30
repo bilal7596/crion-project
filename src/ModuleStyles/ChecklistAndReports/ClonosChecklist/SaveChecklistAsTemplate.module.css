@@ -1,0 +1,59 @@
+.required{
+    color: red;
+}
+.sct_subcontainer {
+  width: 50vw;
+  height: 350px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 2rem;
+}
+
+.sct_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.sct_header > h4 {
+  color: #06337e;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.sct_field_container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1rem;
+}
+.sct_field_container > label {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sct_field_container > input {
+  width: 100%;
+  border-radius: 6px;
+  padding: 1rem;
+  border: 1px solid #8ca1c4;
+  background: #fff;
+}
+.cst_btn_controller {
+  display: flex;
+  justify-content: flex-end;
+}
+.cst_btn_controller > div {
+  display: flex;
+  align-items: center;
+  grid-gap: 1rem;
+}

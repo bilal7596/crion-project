@@ -1,0 +1,8 @@
+.selectDocs{
+    display: flex;
+    /* align-items: center; */
+    grid-gap: 20px;
+}
+.selectDocs > div {
+    color: #3f51b5;
+}

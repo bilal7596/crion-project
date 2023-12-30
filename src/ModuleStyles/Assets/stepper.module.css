@@ -1,0 +1,36 @@
+.StepperWrapper {
+  width: 60%;
+  margin: auto;
+  background: none;
+  margin-bottom: 2em;
+}
+
+.stepperContainer {
+  width: 100%;
+  padding: 1.5em;
+}
+.stepperContainer > div {
+  width: 50%;
+  margin: auto;
+}
+.controller_btn {
+  display: flex;
+  justify-content: flex-end;
+  grid-gap: 30px;
+  padding: 1em 5em 1em 1em;
+  /* position: sticky;
+  bottom: 0; */
+}
+.controller_btn > div > button {
+  display: flex;
+  width: 133px;
+  height: 43px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  background: #06337e;
+  color: #fff;
+  border-radius: 6px;
+}

@@ -1,0 +1,66 @@
+.mb_container {
+    position: relative;
+    background-color: #FFFF;
+}
+
+.mb_visible_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mb_visible_container button {
+    background-color: transparent;
+}
+
+.mb_children_active {
+    top: 2rem;
+    right: 10px;
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    animation: grow_open .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: .5rem;
+    gap: .5rem;
+    border-radius: .5rem;
+    z-index: 10;
+
+}
+
+.mb_children_active>button,
+.mb_children_active>span,
+.mb_children_active>p,
+.mb_children_active>div {
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.md_children_deActive {
+    display: none;
+}
+
+.mb_overlay_active {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.mb_overlay_deActive {
+    display: none;
+}
+
+@keyframes grow_open {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

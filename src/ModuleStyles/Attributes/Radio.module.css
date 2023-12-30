@@ -1,0 +1,19 @@
+.radio_attribute_container {
+    background-color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    position: absolute;
+}
+
+.radio_attribute_content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.radio_attribute_value{
+    border-bottom: .5px dotted gray;
+    color: rgba(0, 0, 0, 0.591);
+}

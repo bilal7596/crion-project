@@ -1,0 +1,41 @@
+.table_attribute_container {
+    background-color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    position: absolute;
+    width: 100%;
+}
+
+.table_attribute_content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.table_attribute_value {
+    border-bottom: .5px dotted gray;
+    color: rgba(0, 0, 0, 0.591);
+}
+
+.table_attribute_table_tag {
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+.table_attribute_table_tag th {
+    background-color: #3F51B5;
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.table_attribute_table_tag th,
+.table_attribute_table_tag td {
+    text-align: left;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}

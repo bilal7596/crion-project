@@ -1,0 +1,203 @@
+.s_m_container{
+    background-color:#E6EBF2;
+    padding: 1rem;
+
+}
+
+.s_m_sub_container{
+    background-color: #FAFAFA;
+    border-radius: 12px;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 80px;
+}
+.s_m_content_wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.s_m_content_wrapper_left{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 2rem;
+    width: 45%;
+}
+
+.s_m_fieldItem{
+    width: 100%;
+}
+.s_m_dates_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.s_m_dates_wrapper_left,.s_m_dates_wrapper_right {
+    width: 45%;
+}
+.toggler_wrapper{
+    display: flex;
+    grid-gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.s_m_frequency_wrapper{
+    display: flex;
+    justify-content: space-between ;
+    margin-bottom: 1rem;
+}
+.s_m_frequency_wrapper > div {
+    width: 45%;
+}
+
+.s_m_frequency_label,.s_m_durrationText {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.count_selector {
+    display: flex;
+    flex-direction: column;
+}
+
+.s_m_fieldValueTaker > input,.s_m_fieldValueTaker > textarea{
+    border-radius: 6px;
+    border: 1px solid #8CA1C4;
+    background: #FFF;
+    padding: 1rem;
+    width: 100%;
+}
+.s_m_fieldValueTaker > input::placeholder,.s_m_fieldValueTaker > textarea::placeholder{
+    color: #8CA1C4;
+}
+.durrationContainer{
+    display: flex;
+    align-items: center;
+    grid-gap: 1rem;
+}
+
+.custom_input_container {
+    border: 1px solid #8CA1C4;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0.8rem;
+}
+.custom_input_container > input {
+    border: none;
+    background: #FAFAFA;
+    color: #000;
+}
+.custom_input_container > input:focus {
+    outline: none;
+}
+.repeatation_wrapper{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+}
+
+.s_m_custome_frequency_taker{
+    display: flex;
+    grid-gap: 1rem;
+    align-items: center;
+}
+.s_m_custome_frequency_taker > input {
+    width: 16px;
+    height: 16px;
+}
+
+
+/* TASKS ADDITION */
+.s_m_content_wrapper_right {
+    width: 45%;
+}
+
+.s_m_tasks_container{
+    height: 70vh;
+    width: 100%;
+    border-radius: 12px;
+    background: #FFF;
+    padding: 2.5rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.08), 0px 0px 4px 0px rgba(0, 0, 0, 0.04);
+}
+
+.s_m_tasks_container_header{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.s_m_tasks_container_header > p{
+    width: 70%;
+    margin: auto;
+    color: #858585;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.s_m_tasks_container_header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.s_m_tasks_container_header > div > h4 {
+    color: #0A5FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.tasks_wrapper{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1.5rem;
+    height: 85%;
+    overflow-y: scroll;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.single_task_wrapper{
+    border-radius: 6px;
+    border: 1px solid #8CA1C4;
+    background: #FFF;
+    padding: 0rem 1rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    grid-gap: 1rem;
+}
+.single_task_wrapper >p {
+
+}
+.single_task_wrapper > input {
+    padding: 1rem 0rem;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border: none;
+}
+.single_task_wrapper > input:focus{
+    outline: none;
+}
+
+.s_m_btn_controllers{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.s_m_btn_controllers > div {
+    display: flex;
+    grid-gap: 1rem;
+    align-items: center;
+}

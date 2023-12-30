@@ -1,0 +1,135 @@
+.ct_preview_container {
+  width: 100%;
+  height: 90%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 27px;
+}
+
+.ct_preview_attribute_container {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1rem;
+}
+.ct_preview_field_label_container {
+  display: flex;
+  align-items: center;
+  grid-gap: 1rem;
+}
+
+.ct_preview_attribute_value_contanier {
+  display: flex;
+  grid-gap: 2rem;
+}
+.ct_preview_attribute_value_left {
+  width: 70%;
+  color: #000;
+}
+.ct_preview_attribute_value_left label {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.ct_preview_attribute_value_left input {
+    background:none;
+}
+.ct_preview_attribute_value_right {
+  display: flex;
+  align-items: center;
+  grid-gap: 1rem;
+}
+.ct_preview_field_label {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.ct_preview_field_Value_input {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #8ca1c4;
+  background: #fff;
+  padding: 1rem;
+  font-size: 1rem;
+}
+.ct_preview_attribute_option {
+  display: flex;
+  grid-gap: 1rem;
+  align-items: center;
+  padding-left: 1rem;
+}
+.ct_preview_attribute_files_box {
+  position: relative;
+}
+.ct_preview_attribute_files_count {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #0a5fff;
+  color: #fff;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  top: -10px;
+  right: -10px;
+}
+.ct_preview_dropdown {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #8ca1c4;
+  background: #fff;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.ct_preview_dropdown option {
+  padding: 5px 10px;
+  font-size: 1rem;
+}
+.ct_preview_multichoice_options_container {
+  display: flex;
+  align-items: center;
+  grid-gap: 1rem;
+  margin-bottom: 10px;
+}
+.ct_preview_multichoice_options_container input {
+  width: 20px;
+  height: 20px;
+}
+.ct_preview_checkboxes_option {
+  display: flex;
+  align-items: center;
+  grid-gap: 1rem;
+  margin-bottom: 10px;
+}
+.ct_preview_checkboxes_option input {
+  width: 20px;
+  height: 20px;
+}
+.ct_preview_option_text {
+  color: var(--foundation-black-b-900, #000);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ct_preview_btn_container{
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+.ct_preview_controllers{
+    display: flex;
+    align-items: center;
+    grid-gap: 1rem;
+}
